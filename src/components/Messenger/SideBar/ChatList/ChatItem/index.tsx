@@ -2,7 +2,7 @@ interface IChatItemProps extends React.PropsWithChildren{}
 
 const ChatItem:React.FunctionComponent<IChatItemProps> = (props):JSX.Element => {
   return (
-    <div className="flex w-full cursor-pointer ease-in duration-200 hover:bg-blue-400 hover:rounded-md p-1">
+    <div className="flex w-full cursor-pointer ease-in duration-200 hover:bg-blue-400 hover:rounded-md p-2">
       <div className="w-full">
         <div>
           <div className="flex justify-between items-center">
@@ -12,7 +12,7 @@ const ChatItem:React.FunctionComponent<IChatItemProps> = (props):JSX.Element => 
           <h5 className="text-xs mt-1">سلام پارسا خوبی؟ کجایی؟</h5>
         </div>
       </div>
-      <div className="rounded-full h-[3rem] w-[3rem] overflow-hidden bg-black">
+      <div className="rounded-full h-[3rem] w-[3rem] overflow-hidden">
         <img src={require("../../../../../assets/images/parsaPic.jpg")} alt="profile-pic" />
       </div>
     </div>

@@ -9,7 +9,7 @@ const Layout: React.FunctionComponent<ILayoutProps> = (props): JSX.Element => {
   return (
     <div className="bg-gray-400 p-2 flex flex-col justify-center items-center">
       <Header />
-      <div className="w-full h-[calc(100vh-3.5rem)] pt-2">
+      <div className="w-full h-[calc(100vh-4rem)] pt-2">
         <Outlet />
       </div>
       <Footer />
